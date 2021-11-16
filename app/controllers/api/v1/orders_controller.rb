@@ -12,7 +12,7 @@ module Api
           render json: {}, status: :internal_server_error
         end
       end
-          
+
       private
 
       def total_price(posted_line_foods)
